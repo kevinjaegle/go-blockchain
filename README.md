@@ -12,7 +12,7 @@ This repository contains a minimal blockchain prototype written in Go.
 
 ## Run
 ```bash
-go run .
+go run ./cmd/blockchain
 
 ## Example Output
 Prev. hash:
