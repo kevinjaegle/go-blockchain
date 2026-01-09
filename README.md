@@ -12,3 +12,12 @@ blocks, hashes, and chaining.
 ## Run
 ```bash
 go run .
+
+## Example Output
+Prev. hash:
+Data: Genesis Block
+Hash: ...
+
+Prev. hash: ...
+Data: Send 1 BTC to Ivan
+Hash: ...
