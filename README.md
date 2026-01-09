@@ -1,13 +1,14 @@
-# Go Blockchain – Learning Project
+# Go Blockchain – Part 1 (Basic Prototype)
 
 This repository contains a minimal blockchain prototype written in Go.
-The goal of this project is to understand how blockchains work internally:
-blocks, hashes, and chaining.
 
-## Features
+## What is implemented (Part 1)
+- Block structure: Timestamp, Data, PrevBlockHash, Hash
+- SHA-256 hashing by concatenating block fields
+- Blockchain as an ordered list of blocks
 - Genesis block
-- SHA-256 hashing
-- Linked blocks (previous hash)
+- Adding new blocks linked to the previous block hash
+- Printing the chain
 
 ## Run
 ```bash
